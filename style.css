@@ -740,18 +740,32 @@ p b{
 }
 @media (max-width: 1000px) {
   #div_12_1 {
+
     flex-wrap: wrap;
     width:400px;
   }
   #div_12{
     height: 800px;
+    width:400px;
+
+    
   }
   .about .title::after{
     display: none;
   }
 }
-#div_13{
-  height:450px;
+@media (max-width: 450px) {
+
+  #div_12{
+    height: 800px;
+    width:200px;
+  }
+  #div_13 {
+
+height: 500px;
+    width:400px;
+  }
+
 }
 
 
